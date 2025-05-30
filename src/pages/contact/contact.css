@@ -1,0 +1,148 @@
+#contact-section {
+  margin: 5% auto;
+  padding: 2rem 1rem;
+  max-width: 1200px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  box-sizing: border-box;
+}
+
+.contact-container {
+  background-color: rgba(255, 255, 255, 0.05);
+  padding: 40px;
+  border-radius: 8px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.4);
+  width: 100%;
+  max-width: 700px;
+  box-sizing: border-box;
+}
+
+.contact-container h1 {
+  text-align: center;
+  margin-bottom: 30px;
+  font-size: 2.2rem;
+  font-weight: 700;
+  font-style: italic;
+  color: #18d26e;
+  border-bottom: 2px solid #18d26e;
+}
+
+#contact-form .input-group {
+  margin-bottom: 20px;
+}
+
+#contact-form input[type="text"],
+#contact-form input[type="email"],
+#contact-form textarea {
+  width: 100%;
+  padding: 12px 15px;
+  border: 1.5px solid #444;
+  border-radius: 6px;
+  background-color: #2a2a2a;
+  color: #eee;
+  font-size: 1rem;
+  transition: border-color 0.3s ease;
+  font-family: inherit;
+  font-style: italic;
+  box-sizing: border-box;
+}
+
+#contact-form input[type="text"]:focus,
+#contact-form input[type="email"]:focus,
+#contact-form textarea:focus {
+  outline: none;
+  border-color: #3b82f6;
+  background-color: #1f1f1f;
+}
+
+#contact-form textarea {
+  resize: vertical;
+  min-height: 100px;
+  font-family: inherit;
+}
+
+#contact-form button {
+  width: 50%;
+  padding: 14px;
+  color: #00ffd1;
+  border: 1px solid #00ffd1;
+  border-radius: 6px;
+  font-size: 1.1rem;
+  cursor: pointer;
+  font-weight: 600;
+  font-style: italic;
+  transition: background-color 0.3s ease;
+  background-color: transparent;
+  display: block;
+  margin: 0 auto;
+  box-sizing: border-box;
+}
+
+#contact-form button:hover {
+ background: rgba(0, 255, 209, 0.1);
+  box-shadow: 0 0 15px rgba(0, 255, 209, 0.4);
+}
+
+#form-status {
+  margin-top: 15px;
+  text-align: center;
+  font-size: 1rem;
+  color: #f87171;
+}
+
+input[name="honeypot"] {
+  display: none;
+}
+
+.animate-on-scroll {
+  opacity: 0;
+  transform: translateY(30px);
+  transition: opacity 0.8s ease-out, transform 0.8s ease-out;
+}
+
+.animate-on-scroll.visible {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+
+@media (max-width: 768px) {
+  .contact-container {
+    padding: 30px 20px;
+  }
+
+  .contact-container h1 {
+    font-size: 1.8rem;
+    margin-bottom: 25px;
+  }
+
+  #contact-form button {
+    width: 70%;
+    padding: 12px;
+    font-size: 1rem;
+  }
+}
+
+
+@media (max-width: 480px) {
+  #contact-section {
+    padding: 1rem 1rem;
+  }
+
+  .contact-container {
+    padding: 20px 15px;
+    max-width: 100%;
+  }
+
+  .contact-container h1 {
+    font-size: 1.5rem;
+    margin-bottom: 20px;
+  }
+
+  #contact-form button {
+    width: 100%;
+    padding: 12px;
+    font-size: 1rem;
+  }
+}

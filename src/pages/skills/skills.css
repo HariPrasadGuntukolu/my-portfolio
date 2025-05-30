@@ -1,0 +1,174 @@
+.skills-section {
+  padding: 2rem 6.5rem;
+  color: white;
+  max-width: 1200px;
+  margin: 5% auto;
+  box-sizing: border-box;
+}
+
+.section-heading {
+  font-size: 2.5rem;
+  color: #18d26e;
+  margin-bottom: 1.5rem;
+  margin-top: 2rem;
+  font-weight: 600;
+  font-style: italic;
+  text-align: left;
+}
+
+.section-description {
+  font-size: 1.5rem;
+  font-style: italic;
+  font-weight: 500;
+  color: #ddd;
+  line-height: 1.7;
+  text-align: justify;
+  margin-bottom: 3rem;
+}
+
+.info-grid {
+  display: grid;
+  grid-template-columns: 1fr 3fr;
+  gap: 2rem;
+  margin-bottom: 3rem;
+  align-items: start;
+}
+
+.left-title {
+  font-size: 1.8rem;
+  font-style: italic;
+  font-weight: 600;
+  color: #18d26e;
+  text-align: left;
+}
+
+.content-grid {
+  width: 100%;
+}
+
+.skills-grid,
+.interests-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+  gap: 1.5rem;
+}
+
+.skill-card,
+.interest-card {
+  padding: 1rem;
+  border-radius: 0.5rem;
+  background: rgba(255, 255, 255, 0.08);
+  border: 1px solid white;
+  transition: transform 0.3s ease, background-color 0.3s ease;
+  text-align: center;
+  cursor: pointer;
+}
+
+.skill-card:hover,
+.interest-card:hover {
+  background-color: black;
+  transform: scale(1.05);
+}
+
+.skill-info {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 0.75rem;
+}
+
+.skill-info img {
+  max-width: 100%;
+  height: auto;
+}
+
+.skill-info span {
+  font-size: 1rem;
+  font-weight: 600;
+  font-style: italic;
+}
+
+.interest-card i {
+  font-size: 2rem;
+  margin-bottom: 0.8rem;
+  display: block;
+}
+
+.interest-card h3 {
+  font-size: 1rem;
+  font-weight: 600;
+  font-style: italic;
+}
+
+
+.animate-on-scroll {
+  opacity: 0;
+  transform: translateY(30px);
+  transition: opacity 0.8s ease-out, transform 0.8s ease-out;
+}
+
+.animate-on-scroll.visible {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+
+
+@media (max-width: 768px) {
+  .skills-section {
+    padding: 1.5rem;
+    margin: 2rem;
+  }
+
+  .section-heading {
+    font-size: 1.75rem;
+  }
+
+  .left-title {
+    font-size: 1.5rem;
+  }
+
+  .skills-grid,
+  .interests-grid {
+    grid-template-columns: repeat(auto-fit, minmax(120px, 1fr));
+    gap: 1rem;
+  }
+
+  .skill-info span,
+  .interest-card h3 {
+    font-size: 0.9rem;
+  }
+
+  .interest-card i {
+    font-size: 1.8rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .skills-section {
+    padding: 1.5rem;
+    margin: 2rem;
+  }
+
+  .section-heading {
+    font-size: 1.5rem;
+  }
+
+  .section-description {
+    font-size: 1rem;
+  }
+
+  .skills-grid,
+  .interests-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .skill-card,
+  .interest-card {
+    padding: 0.8rem;
+  }
+
+  .skill-info span {
+    font-size: 0.8rem;
+  }
+}
