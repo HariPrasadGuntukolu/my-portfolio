@@ -171,4 +171,23 @@
   .skill-info span {
     font-size: 0.8rem;
   }
+
+  .info-grid {
+    grid-template-columns: 1fr;
+    text-align: center;
+  }
+
+  .left-title {
+    font-size: 1.5rem;
+    justify-self: center;
+  }
+
+  .content-grid {
+    justify-self: center;
+    margin-top: 0.5rem;
+  }
+
+  .interest-card i {
+    font-size: 1.8rem;
+  }
 }

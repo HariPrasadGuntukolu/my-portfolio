@@ -37,8 +37,8 @@ const Hero = () => {
 
         <div className="button-container animate-on-scroll">
           <a
-            href="./assets/My_Resume.pdf"
-            download="My_Resume.pdf"
+            href="/my-portfolio/Resume.pdf"
+            download="Hari Prasad Guntukolu.pdf"
             className="custom-btn"
           >
             Download Resume
