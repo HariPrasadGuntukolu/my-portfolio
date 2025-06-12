@@ -1,12 +1,37 @@
-# React + Vite
+# 👨‍💻 Hari Prasad G – Front-End Developer
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Welcome to my portfolio repository! I'm a passionate **Front-End Developer** with 1 year and 9 months of industry experience, skilled in crafting responsive and interactive web applications using **HTML**, **CSS**, **JavaScript**, and **React.js**.
 
-Currently, two official plugins are available:
+This portfolio showcases my technical skills, personal projects, and experience in building user-focused digital products.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🧠 About Me
 
-## Expanding the ESLint configuration
+- 🎓 Diploma & B.Tech in Electronics and Communication Engineering  
+- 👨‍💼 Former Associate Software Engineer at Mphasis  
+- 🛠️ Skilled in Front-End Development  
+- 🌱 Currently focused on mastering **React.js** and building scalable UI components  
+- 📍 Based in Tirupati, India  
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## 🌐 Live Portfolio
+
+👉 [Visit My Portfolio](https://hariprasadguntukolu.github.io/my-portfolio)
+
+## 🚀 Tech Stack
+
+- **Frontend**: HTML5, CSS3, JavaScript, React.js  
+- **Tools**: Git, GitHub, VS Code  
+- **Others**: Responsive Web Design, Dark Mode UI, API Integration  
+
+## 📁 Projects Featured
+
+### 📘 UpSkill – E-Learning Platform
+A full-stack learning platform with secure user authentication, course management, payments via Razorpay, and a modern dark mode UI.
+
+### 🎨 Creative UI Components
+Custom-designed React components including modals, loaders, cards, and reusable form elements.
+
+> More projects and details are available on the live portfolio.
+
+---
+
+**Built with ❤️ by Hari Prasad Guntukolu**
